@@ -23,6 +23,9 @@ A Simple Tabular view representing Total Cases, Total deaths and Death Percentag
 **Visualization 2**: *Total Deaths per Continent*
 A horizontal bar graph representing the six continents affected by covid-19, with Europe being the continent with highest number of deaths which counts up to 2,100,105 deaths followed by North America, Asia, South America, Africa, with Oceania being the continent with least numbers of deaths which counts up to 33,153 deaths.
 
+![](https://i.imgur.com/vHe4kjn.png)
+
+
 **Visualization 3**: *Infection Rate Per Country*
 A World Map that displays the covid-19 infection rate across various countries, the map uses a color gradient to represent the infection rate with the legend on the top right corner indicating the range from 0.00 to 77.10 percent.
 
@@ -33,14 +36,18 @@ Key Observations:
 
 This map provides a visual representation of the spread and severity of COVID-19 across the globe. The darker red areas highlight regions with significant infection rates, potentially indicating higher transmission rates or larger outbreaks. Lighter colors indicate regions with lower infection rates, which could be due to effective control measures, lower transmission rates, or other factors.
 
+![](https://i.imgur.com/wtrFqLE.png)
+
 **Visualization 4**: *Top Seven Globally Infected Countries*
-A line graph representing the top 7 most affected countries by covid-19, the x-axis represents the timeline from 2020 to 2024, while the y-axis shows the infection rate.  
+A line graph representing the top 7 most affected countries by covid-19, the x-axis represents the timeline from 2020 to 2024, while the y-axis shows the infection rate.
 
 Overall Observation:
 - Steep Increases: France, Germany, and the United Kingdom exhibit rapid early increases, which later stabilize.
 - Gradual Increases: The United States and Russia show more consistent and gradual increases.
 - Low Increases: China maintains a low infection rate with slight growth.
 - Decline: India shows an unusual decline to zero by 2024.
+
+![](https://i.imgur.com/JDfT78x.png)
 
 **Conclusion**
 
