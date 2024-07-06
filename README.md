@@ -2,7 +2,7 @@
 
 I have created a dashboard with four visualizations to analyze and understand effects of Covid-19 Globaly.
 
-### [Visualization Dashboard]([https://public.tableau.com/profile/sampath.gonnuru#!/vizhome/Covid-19_15891658031180/Covid-19dashboard?publish=yes]
+### [Visualization Dashboard]([https://public.tableau.com/shared/?:display_count=n&:origin=viz_share_link])
 
 
 The primary goals of my visualizations are:
