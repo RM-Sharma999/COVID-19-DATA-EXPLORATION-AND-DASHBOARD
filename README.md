@@ -1,17 +1,17 @@
 ![](https://github.com/RM-Sharma999/COVID-19-DATA-EXPLORATION-AND-DASHBOARD/blob/main/Covid-19%20Dashboard.png)
 
-# COVID-19 Tableau Visualization
+# COVID-19 Tableau Visualization 
 
 I have created a dashboard with four visualizations to analyze and understand effects of Covid-19 Globaly.
 
-### [Visualization Dashboard](https://public.tableau.com/views/Covid-19Dashboard_17201999956250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### [Covid-19 Dashboard](https://public.tableau.com/views/Covid-19Dashboard_17201999956250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 The primary goals of my visualizations are:
 
-- How each country has been effected by Corona virus? 
-- Total Cases and deaths and the Death Percentage?
+- Total Cases, Total deaths and the Death Percentage Worldwide?
 - How each continent was affected by Covid-19?
+- How each country has been effected by Covid-19? 
 - How the top countries were affected by covid-19 (top 7)?
 
 
@@ -30,9 +30,9 @@ A horizontal bar graph representing the six continents affected by covid-19, wit
 A World Map that displays the covid-19 infection rate across various countries, the map uses a color gradient to represent the infection rate with the legend on the top right corner indicating the range from 0.00 to 77.10 percent.
 
 Key Observations:
-- Western Europe stands out with some of the highest infection rates.
-- Observed in parts of North and South America, as well as Australia.
-- Predominant in many African and Southeast Asian countries.
+- High Infection Rates: Western Europe stands out with some of the highest infection rates.
+- Moderate Infection Rates: Observed in parts of North and South America, as well as Australia.
+- Lower Infection Rates: Predominant in many African and Southeast Asian countries.
 
 This map provides a visual representation of the spread and severity of COVID-19 across the globe. The darker red areas highlight regions with significant infection rates, potentially indicating higher transmission rates or larger outbreaks. Lighter colors indicate regions with lower infection rates, which could be due to effective control measures, lower transmission rates, or other factors.
 
