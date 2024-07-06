@@ -23,4 +23,4 @@ A Simple Tabular view representing Total Cases, Total deaths and Death Percentag
 **Visualization 2**: *Total Deaths per Continent*
 A horizontal bar graph representing the six continents affected by covid-19, with Europe being the continent with highest number of deaths which counts up to 2,100,105 deaths followed by North America, Asia, South America, Africa, with Oceania being the continent with least numbers of deaths which counts up to 33,153 deaths.
 
-**Visualization 3:** *Infection Rate Per Country*
+**Visualization 3**: *Infection Rate Per Country*
