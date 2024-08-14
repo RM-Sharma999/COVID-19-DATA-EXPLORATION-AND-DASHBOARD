@@ -134,8 +134,7 @@ FROM PortfolioProject..CovidDeaths
 WHERE continent_norm is NOT NULL
 
 
---Looking at Total Population vs Vaccinations:
-
+-- Looking at Total Vaccination Doses Administered relative to the population (Total Population vs Vaccinations):
 SELECT dea.continent_norm, dea.location, dea.date, dea.population, vac.new_vaccinations,
 SUM(vac.new_vaccinations) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date) AS Rolling_Vaccination_Count
 FROM PortfolioProject..CovidDeaths AS dea
@@ -145,7 +144,8 @@ JOIN PortfolioProject..CovidVaccinations AS vac
 WHERE dea.continent_norm is NOT NULL
 ORDER BY 2,3;
 
---Using CTE to calculate how many people are vaccinated:
+
+-- Now looking at Overall Vaccination Percentage relative to the population:
 WITH PopVacc (continent_norm, location, date, population, new_vaccinations, Rolling_Vaccination_Count)
 AS
 (
@@ -160,9 +160,12 @@ WHERE dea.continent_norm is NOT NULL
 )
 SELECT *, (Rolling_Vaccination_Count/(population * 1.0)) * 100 AS People_Vaccinated_Percentage
 FROM PopVacc
-WHERE location = 'India';
+ORDER BY People_Vaccinated_Percentage DESC;
+--WHERE location = 'United States';
+
 
 --via Temp table:
+
 
 --DROP TABLE if exists #Percent_Population_vaccinated 
 --CREATE TABLE #Percent_Population_vaccinated
@@ -188,16 +191,47 @@ WHERE location = 'India';
 --SELECT *, (Rolling_Vaccination_Count/(population * 1.0)) * 100 AS People_Vaccinated_Percentage
 --FROM #Percent_Population_vaccinated
 
--- Creating View to store data for later visualizations:
 
-CREATE VIEW Percent_Population_vaccinated AS  
+-- Using CTE to calculate how many people are fully vaccinated:
+WITH FullVacc (continent_norm, location, date, population, new_vaccinations, Full_Vaccination_Count)
+AS
+(
 SELECT dea.continent_norm, dea.location, dea.date, dea.population, vac.new_vaccinations,
-SUM(vac.new_vaccinations) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date) AS Rolling_Vaccination_Count
+LEAST(SUM(vac.new_vaccinations) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date), 2 * dea.population) AS Full_Vaccination_Count
 FROM PortfolioProject..CovidDeaths AS dea
 JOIN PortfolioProject..CovidVaccinations AS vac
 	ON dea.location = vac.location
 	AND dea.date = vac.date
 WHERE dea.continent_norm is NOT NULL
---ORDER BY 2,3;
+-- ORDER BY 2,3;
+)
+SELECT *, (Full_Vaccination_Count/(population * 2.0)) * 100 AS Full_Vaccination_Percentage
+FROM FullVacc
+WHERE location = 'India';
+-- ORDER BY Full_Vaccination_Percentage DESC;
 
-SELECT * FROM Percent_Population_vaccinated
+
+-- Using CTE to calculate how many people are fully vaccinated, including first and second doses:
+WITH FullVacc (continent_norm, location, date, population, new_vaccinations, Full_Vaccination_Count)
+AS
+(
+SELECT dea.continent_norm, dea.location, dea.date, dea.population, vac.new_vaccinations,
+LEAST(SUM(vac.new_vaccinations) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date), 2 * dea.population) AS Full_Vaccination_Count
+FROM PortfolioProject..CovidDeaths AS dea
+JOIN PortfolioProject..CovidVaccinations AS vac
+	ON dea.location = vac.location
+	AND dea.date = vac.date
+WHERE dea.continent_norm is NOT NULL
+-- ORDER BY 2,3;
+)
+SELECT *, 
+CASE WHEN Full_Vaccination_Count <= 1417173120 THEN Full_Vaccination_Count
+ELSE 1417173120
+END AS First_Dose_Administered, 
+CASE WHEN Full_Vaccination_Count > 1417173120 THEN Full_Vaccination_Count - 1417173120
+ELSE 0
+END AS Second_Dose_Administered, 
+(Full_Vaccination_Count/(population * 2.0)) * 100 AS Full_Vaccination_Percentage
+FROM FullVacc
+WHERE location = 'India';
+-- ORDER BY Full_Vaccination_Percentage DESC;
