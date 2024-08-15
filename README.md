@@ -9,11 +9,13 @@ I have created a dashboard with four visualizations to analyze and understand ef
 
 The primary goals of my visualizations are:
 
-- Total Cases, Total deaths and the Death Percentage Worldwide?
-- How each continent was affected by Covid-19?
-- How each country has been effected by Covid-19? 
-- How the top countries were affected by covid-19 (top 7)?
-
+- Total Cases, Total Deaths and the Death Percentage Worldwide?
+- How each Continent was affected by Covid-19?
+- How each Country has been effected by Covid-19? 
+- How the Top Countries were affected by covid-19 (Top 7)?
+- How many Countries have less than 50% Vaccination By 2024?
+- How many Countries have been Fully Vaccinated By 2024?
+- Vaccinations Administered till May 1, 2024 in India?
 
 **Visualization 1**: *Covid-19 Global Numbers*
 A Simple Tabular view representing Total Cases, Total deaths and Death Percentage Globally.
