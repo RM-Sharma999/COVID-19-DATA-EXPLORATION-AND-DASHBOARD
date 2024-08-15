@@ -51,6 +51,8 @@ Overall Observation:
 
 ![](https://i.imgur.com/JDfT78x.png)
 
+**Visualization 5**: *
+
 **Conclusion**
 
 The COVID-19 pandemic has significantly impacted countries around the globe, with varying infection rates and trends. This project has analyzed and visualized COVID-19 data to better understand the spread and severity of the virus across different regions. 
