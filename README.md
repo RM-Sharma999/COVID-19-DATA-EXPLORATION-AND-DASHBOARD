@@ -51,7 +51,14 @@ Overall Observation:
 
 ![](https://i.imgur.com/JDfT78x.png)
 
-**Visualization 5**: *
+**Visualization 5**: *Countries With less than 50% Vaccination By 2024?*
+This World Map provides a global overview of vaccination rates, highlighting countries expected to fall below the 50% threshold. It uses a color gradient from green to red, where green represents areas with the highest coverage near the 50% mark and red denotes those with the lowest. The legend, positioned on the upper right, spans from 0.00% to 49.26%, offering a clear understanding of the color-coded data. 
+
+Key Observations:
+
+**Visualization 6**: *Covid-19 Full Vaccination Coverage Worldwide By 2024?*
+
+**Visualization 7**: *Vaccinations Administered till May 1, 2024 - India*
 
 **Conclusion**
 
