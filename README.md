@@ -56,14 +56,14 @@ This World Map provides a global overview of vaccination rates, highlighting cou
 
 The map emphasizes regions like Africa, Asia, and parts of Eastern Europe, where many countries fall below the 50% threshold, Labels identify key countries such as Afghanistan, the Central African Republic, and Papua New Guinea. The interactive elements, such as the map selector, likely allow users to explore different views, enhancing the map's utility for stakeholders.
 
-![](https://i.imgur.com/Q9DLw7q.png)
+![](https://i.imgur.com/5d2iXyr.png)
 
 **Visualization 6**: *Covid-19 Full Vaccination Coverage Worldwide By 2024?* \
 This World Map provides a global overview of projected full vaccination rates by 2024. The map uses a color gradient from red to green to depict vaccination coverage, where green represents regions with near-complete or 100% coverage, and red highlights areas with minimal or no coverage.
 
 Countries in North America, Europe, and parts of Asia are predominantly shown in green, indicating high vaccination rates, while parts of Africa and the Middle East are marked in shades of red and orange, reflecting lower coverage levels. The legend in the top right corner explains the color range from 0.0% to 100.0%, the map also includes an interactive element labeled “Map Selector”, suggesting options for switching between different views.
 
-![](https://i.imgur.com/ZtR2Wh5.png)
+![](https://i.imgur.com/fZKFaBW.png)
 
 **Visualization 7**: *Vaccinations Administered till May 1, 2024 - India* \
 This line chart tracks the cumulative number of COVID-19 vaccinations administered in India over time, from November 2019 to May 2024. The chart features three distinct lines, each representing a different vaccination measure: the first dose administered (in red), the second dose administered (in blue), and the full vaccination count or Total doses administered (in yellow). The x-axis displays the date, while the y-axis shows the cumulative number of vaccinations in millions.
@@ -75,7 +75,7 @@ Key Observations:
 
 This visualization effectively communicates the progress and scale of India’s vaccination campaign, highlighting the significant difference between the number of first doses administered and the number of second doses administered by May 2024.
 
-![](https://i.imgur.com/BeV40Y9.png)
+![](https://i.imgur.com/aqqjJ13.png)
 
 **Conclusion**
 
