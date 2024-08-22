@@ -49,7 +49,7 @@ Overall Observation:
 - Low Increases: China maintains a low infection rate with slight growth.
 - Decline: India shows an unusual decline to zero by 2024.
 
-![](https://i.imgur.com/JDfT78x.png)
+![](https://i.imgur.com/qtihffU.png)
 
 **Visualization 5**: *Countries With less than 50% Vaccination By 2024?*
 This World Map provides a global overview of vaccination rates, highlighting countries projected to have less than 50% vaccination coverage by 2024. Using a color scale from green to red, it visually categorizes countries based on their vaccination rates, with green indicating highest coverage near the 50% mark and red denotes those with the lowest. The legend, positioned on the upper right, spans from 0.00% to 49.26%, offering a clear understanding of the color-coded data.
@@ -59,8 +59,25 @@ The map emphasizes regions like Africa, Asia, and parts of Eastern Europe, where
 ![](https://i.imgur.com/Q9DLw7q.png)
 
 **Visualization 6**: *Covid-19 Full Vaccination Coverage Worldwide By 2024?*
+This World Map provides a global overview of projected full vaccination rates by 2024. The map uses a color gradient from red to green to depict vaccination coverage, where green represents regions with near-complete or 100% coverage, and red highlights areas with minimal or no coverage.
+
+Countries in North America, Europe, and parts of Asia are predominantly shown in green, indicating high vaccination rates, while parts of Africa and the Middle East are marked in shades of red and orange, reflecting lower coverage levels. The legend in the top right corner explains the color range from 0.0% to 100.0%, the map also includes an interactive element labeled “Map Selector”, suggesting options for switching between different views.
+
+![](https://i.imgur.com/ZtR2Wh5.png)
 
 **Visualization 7**: *Vaccinations Administered till May 1, 2024 - India*
+This line chart tracks the cumulative number of COVID-19 vaccinations administered in India over time, from November 2019 to May 2024. The chart features three distinct lines, each representing a different vaccination measure: the first dose administered (in red), the second dose administered (in blue), and the full vaccination count or Total doses administered (in yellow). The x-axis marks the timeline, while the y-axis displays the cumulative number of vaccinations in millions.
+
+Key Observations:
+- First Dose Administered: The red line shows a sharp rise starting in early 2021, plateauing around 1.4 billion by mid-2022, indicating a rapid initial rollout of the first doses.
+
+- Second Dose Administered: The blue line, which starts later in 2021, reaches around 790 million by May 2024, showing a slower but steady increase compared to the first dose.
+
+- Full Vaccination Count: The yellow line, representing those who have received both doses, mirrors the trend of the first dose line initially but then stabilizes, reaching over 2.2 billion by May 2024.
+
+This visualization effectively communicates the progress and scale of India’s vaccination campaign, highlighting the significant difference between the number of first doses administered and the number of second doses administered by May 2024.
+
+![](https://i.imgur.com/BeV40Y9.png)
 
 **Conclusion**
 
