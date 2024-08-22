@@ -17,18 +17,18 @@ The primary goals of my visualizations are:
 - How many Countries have been Fully Vaccinated By 2024?
 - Vaccinations Administered till May 1, 2024 in India?
 
-**Visualization 1**: *Covid-19 Global Numbers*
+**Visualization 1**: *Covid-19 Global Numbers* \
 A Simple Tabular view representing Total Cases, Total deaths and Death Percentage Globally.
 
 ![](https://i.imgur.com/2E47p8c.png?1)
 
-**Visualization 2**: *Total Deaths per Continent*
+**Visualization 2**: *Total Deaths per Continent* \
 A horizontal bar graph representing the six continents affected by covid-19, with Europe being the continent with highest number of deaths which counts up to 2,100,105 deaths followed by North America, Asia, South America, Africa, with Oceania being the continent with least numbers of deaths which counts up to 33,153 deaths.
 
 ![](https://i.imgur.com/vHe4kjn.png)
 
 
-**Visualization 3**: *Infection Rate Per Country*
+**Visualization 3**: *Infection Rate Per Country* \
 A World Map that displays the covid-19 infection rate across various countries, the map uses a color gradient to represent the infection rate with the legend on the top right corner indicating the range from 0.00 to 77.10 percent.
 
 Key Observations:
@@ -40,7 +40,7 @@ This map provides a visual representation of the spread and severity of COVID-19
 
 ![](https://i.imgur.com/wtrFqLE.png)
 
-**Visualization 4**: *Top Seven Globally Infected Countries*
+**Visualization 4**: *Top Seven Globally Infected Countries* \
 A line graph representing the top 7 most affected countries by covid-19, the x-axis represents the timeline from 2020 to 2024, while the y-axis shows the infection rate.
 
 Overall Observation:
@@ -51,14 +51,14 @@ Overall Observation:
 
 ![](https://i.imgur.com/qtihffU.png)
 
-**Visualization 5**: *Countries With less than 50% Vaccination By 2024?*
+**Visualization 5**: *Countries With less than 50% Vaccination By 2024?* \
 This World Map provides a global overview of vaccination rates, highlighting countries projected to have less than 50% vaccination coverage by 2024. Using a color scale from green to red, it visually categorizes countries based on their vaccination rates, with green indicating highest coverage near the 50% mark and red denotes those with the lowest. The legend, positioned on the upper right, spans from 0.00% to 49.26%, offering a clear understanding of the color-coded data.
 
 The map emphasizes regions like Africa, Asia, and parts of Eastern Europe, where many countries fall below the 50% threshold, Labels identify key countries such as Afghanistan, the Central African Republic, and Papua New Guinea. The interactive elements, such as the map selector, likely allow users to explore different views, enhancing the map's utility for stakeholders.
 
 ![](https://i.imgur.com/Q9DLw7q.png)
 
-**Visualization 6**: *Covid-19 Full Vaccination Coverage Worldwide By 2024?*
+**Visualization 6**: *Covid-19 Full Vaccination Coverage Worldwide By 2024?* \
 This World Map provides a global overview of projected full vaccination rates by 2024. The map uses a color gradient from red to green to depict vaccination coverage, where green represents regions with near-complete or 100% coverage, and red highlights areas with minimal or no coverage.
 
 Countries in North America, Europe, and parts of Asia are predominantly shown in green, indicating high vaccination rates, while parts of Africa and the Middle East are marked in shades of red and orange, reflecting lower coverage levels. The legend in the top right corner explains the color range from 0.0% to 100.0%, the map also includes an interactive element labeled “Map Selector”, suggesting options for switching between different views.
