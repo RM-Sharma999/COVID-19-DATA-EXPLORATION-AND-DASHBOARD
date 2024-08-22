@@ -66,12 +66,12 @@ Countries in North America, Europe, and parts of Asia are predominantly shown in
 ![](https://i.imgur.com/fZKFaBW.png)
 
 **Visualization 7**: *Vaccinations Administered till May 1, 2024 - India* \
-This line chart tracks the cumulative number of COVID-19 vaccinations administered in India over time, from November 2019 to May 2024. The chart features three distinct lines, each representing a different vaccination measure: the first dose administered (in red), the second dose administered (in blue), and the full vaccination count or Total doses administered (in yellow). The x-axis displays the date, while the y-axis shows the cumulative number of vaccinations in millions.
+This line chart tracks the cumulative number of COVID-19 vaccinations administered in India over time, from November 2019 to May 2024. The chart features three distinct lines, each representing a different vaccination measure: the first dose administered (in red), the second dose administered (in blue), and the Total doses administered (in yellow). The x-axis displays the date, while the y-axis depicts the cumulative number of vaccinations in millions.
 
 Key Observations:
 - First Dose Administered: The red line shows a sharp rise starting in early 2021, plateauing around 1.4 billion by mid-2022, indicating a rapid initial rollout of the first doses.
 - Second Dose Administered: The blue line, which starts later in 2021, reaches around 790 million by May 2024, showing a slower but steady increase compared to the first dose.
-- Full Vaccination Count: The yellow line, representing the total number of doses administered, it mirrors the trend of the first dose line initially but then stabilizes, reaching over 2.2 billion by May 2024.
+- Total Doses Administered: The yellow line, representing the total number of doses administered, it mirrors the trend of the first dose line initially but then stabilizes, reaching over 2.2 billion by May 2024.
 
 This visualization effectively communicates the progress and scale of India’s vaccination campaign, highlighting the significant difference between the number of first doses administered and the number of second doses administered by May 2024.
 
@@ -79,7 +79,7 @@ This visualization effectively communicates the progress and scale of India’s 
 
 **Conclusion**
 
-The COVID-19 pandemic has significantly impacted countries around the globe, with varying infection rates and trends. This project has analyzed and visualized COVID-19 data to better understand the spread and severity of the virus across different regions. 
+The COVID-19 pandemic has significantly impacted countries around the globe, with varying infection rates and trends. This project has analyzed and visualized COVID-19 data to better understand the spread and severity of the virus across different regions and the Vaccination efforts of each Country.
 
 
 Data Sources:
