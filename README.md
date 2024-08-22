@@ -65,8 +65,7 @@ Countries in North America, Europe, and parts of Asia are predominantly shown in
 
 ![](https://i.imgur.com/ZtR2Wh5.png)
 
-**Visualization 7**: *Vaccinations Administered till May 1, 2024 - India*
-
+**Visualization 7**: *Vaccinations Administered till May 1, 2024 - India* \
 This line chart tracks the cumulative number of COVID-19 vaccinations administered in India over time, from November 2019 to May 2024. The chart features three distinct lines, each representing a different vaccination measure: the first dose administered (in red), the second dose administered (in blue), and the full vaccination count or Total doses administered (in yellow). The x-axis marks the timeline, while the y-axis displays the cumulative number of vaccinations in millions.
 
 Key Observations:
