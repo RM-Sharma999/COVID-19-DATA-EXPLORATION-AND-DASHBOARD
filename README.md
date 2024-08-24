@@ -1,9 +1,5 @@
 ![](https://github.com/RM-Sharma999/COVID-19-DATA-EXPLORATION-AND-DASHBOARD/blob/main/Covid-19%20Dashboard%201.png)
 
--- ![](https://github.com/RM-Sharma999/COVID-19-DATA-EXPLORATION-AND-DASHBOARD/blob/main/Covid-19%20Dashboard%202.png)
-
--- ![](https://github.com/RM-Sharma999/COVID-19-DATA-EXPLORATION-AND-DASHBOARD/blob/main/Covid-19%20Dashboard%203.png)
-
 # COVID-19 Tableau Visualization 
 
 I have created a dashboard with four visualizations to analyze and understand effects of Covid-19 Globaly.
