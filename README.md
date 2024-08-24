@@ -51,7 +51,7 @@ Overall Observation:
 - Low Increases: China maintains a low infection rate with slight growth.
 - Decline: India shows an unusual decline to zero by 2024.
 
-![](https://i.imgur.com/qtihffU.png)
+![](https://i.imgur.com/UQa3rYg.png)
 
 **Visualization 5**: *Countries With less than 50% Vaccination By 2024?* \
 This World Map provides a global overview of vaccination rates, highlighting countries projected to have less than 50% vaccination coverage by 2024. Using a color scale from green to red, it visually categorizes countries based on their vaccination rates, with green indicating highest coverage near the 50% mark and red denotes those with the lowest. The legend, positioned on the upper right, spans from 0.00% to 49.26%, offering a clear understanding of the color-coded data.
