@@ -77,7 +77,7 @@ Key Observations:
 
 This visualization effectively communicates the progress and scale of India’s vaccination campaign, highlighting the significant difference between the number of first doses administered and the number of second doses administered by May 2024.
 
-![](https://i.imgur.com/aqqjJ13.png)
+![](https://i.imgur.com/4rZRE9D.png)
 
 **Conclusion**
 
