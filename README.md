@@ -1,4 +1,4 @@
-![](https://github.com/RM-Sharma999/COVID-19-DATA-EXPLORATION-AND-DASHBOARD/blob/main/Covid-19%20Dashboard.png)
+![](https://github.com/RM-Sharma999/COVID-19-DATA-EXPLORATION-AND-DASHBOARD/blob/main/Covid-19%20Dashboard%201.png)
 
 # COVID-19 Tableau Visualization 
 
